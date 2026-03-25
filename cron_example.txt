@@ -1,0 +1,9 @@
+# TaskCron 
+#
+# FORMAT: 
+# CRON EXPRESSION | TIMEOUT (SECS) | COMMAND 
+
+* * * * * | 0 | cmd /c dir
+*/2 * * * * | 0 | curl.exe https://example.com
+*/5 * * * * | 0 | cmd /c C:\scripts\b.bat
+0 2 * * * | 300 | C:\backup\backup.bat
